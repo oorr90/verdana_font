@@ -1,0 +1,291 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+    color: #262626;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #262626;
+}
+
+
+
+/***************************************
+
+HEADER
+
+***************************************/
+
+header {
+    background: #464646;
+    height: 340px;
+    padding: 70px 10px 0px;
+}
+
+header h1, header h3 {
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    text-transform: lowercase;
+}
+
+header h1 {
+    font-size: 6em;
+    margin: 0;
+}
+
+header h3 {
+    color: #ccc;
+    margin-top: 50px;
+}
+
+
+
+
+/***************************************
+
+NAV
+
+***************************************/
+
+nav {
+    width: 80%;
+    margin: 60px auto;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style: none;
+    text-transform: lowercase;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+nav li {
+    padding: 0 30px;
+}
+
+nav a {
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #bfbfbf;
+}
+
+nav a.selected {
+    font-weight: bold;
+}
+
+
+
+/***************************************
+
+ARROW
+
+***************************************/
+
+#arrow {
+    background: #464646;
+    height: 50px;
+    width: 50px;
+    margin: 80px auto 0;
+    border-radius: 50%;
+}
+
+#arrow img {
+    width: 60%;
+    text-align: center;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+
+
+/***************************************
+
+MAIN
+
+***************************************/
+
+main {
+    width: 85%;
+    max-width: 800px;
+    margin: 70px auto 20px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+main h2 {
+    text-transform: lowercase;
+    font-size: 2.5em;
+}
+
+main img {
+    width: 60%;
+    max-width: 400px;
+    min-width: 300px;
+    margin: 40px 0;
+}
+
+main h3 {
+    text-transform: lowercase;
+    margin-top: 40px;
+}
+
+
+
+/***************************************
+
+FIG CAPTIONS
+
+***************************************/
+
+.fig_caption p {
+    margin-top: -20px;
+    margin-bottom: 100px;
+    font-style: italic;
+}
+
+
+/***************************************
+
+FOOTER
+
+***************************************/
+
+footer {
+    background-color: #464646;
+    color: #fff;
+    height: 30px;
+    margin-top: 40px;
+    text-align: right;
+}
+
+footer p {
+    padding: 8px 20px 8px 0px;
+    text-transform: lowercase;
+    font-size: .8em;
+}
+
+
+/***************************************
+
+PAGE: CONTACT
+
+***************************************/
+
+.about {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.about a {
+    color: #808080;
+}
+
+.about a:hover {
+    color: #bfbfbf;
+}
+
+.about ul {
+    list-style: none;
+    font-weight: bold;
+    padding: 0;
+}
+
+#social {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#social img {
+    width: 30px;
+    padding: 0 10px;
+}
+
+#social img:hover {
+    transform: scale(1.1) rotate(8deg);
+    -ms-transform: scale(1.1) rotate(8deg); /* IE 9 */
+    -webkit-transform: scale(1.1) rotate(8deg);
+}
+
+
+
+
+
+/***************************************
+
+PAGE : TABLE
+
+***************************************/
+
+table, th, td {
+	border: 2px solid #000;
+	border-collapse: collapse;
+    margin: 100px auto;
+}
+
+td {
+	width: 50px;
+	height: 50px;
+}
+
+tr {
+	height: 50px;
+}
+
+.blue {
+	background-color: #0000cc;
+}
+
+.yellow {
+	background-color: #ffff00;
+}
+
+.red {
+	background-color: #e60000;
+}
+
+.black {
+	background-color: #000;
+}
+
+#last {
+	height: 0.5px;
+}
+
+.final {
+	height: 0.5px;
+}
+
+
+
+/***************************************
+
+MEDIA QUERIES
+
+***************************************/
+
+@media (max-width: 500px) {
+    header {
+        height: 260px;
+    }
+    
+    header h1 {
+        font-size: 4.5em;
+    }
+    
+    header h3 {
+        font-size: .9em;
+    }
+}
+
+
+
