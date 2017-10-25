@@ -4,6 +4,7 @@ body {
     width: 100%;
     margin: 0;
     box-sizing: border-box;
+    font-size: 100%;
 }
 
 a {
@@ -53,7 +54,7 @@ NAV
 
 nav {
     width: 80%;
-    margin: 60px auto;
+    margin: 3em auto;
     text-align: center;
     font-size: 1.2em;
 }
@@ -273,9 +274,11 @@ MEDIA QUERIES
 
 ***************************************/
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+    
+    /******* HEADER *********/
     header {
-        height: 260px;
+        height: 250px;
     }
     
     header h1 {
@@ -285,7 +288,49 @@ MEDIA QUERIES
     header h3 {
         font-size: .9em;
     }
+    
+    
+    /******* NAV *********/
+    nav {
+        margin: 1.5em auto;
+    }
+    
+    nav ul {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        width: 100%;
+        padding: .3em 0;
+    }
+    
+    
+    /******* ARROW *********/
+    #arrow {
+        display: none;
+    }
+    
+    
+    /******* MAIN *********/
+    main {
+        margin-top: 4em;
+        font-size: .85em;
+    }
+    
+    table {
+        max-width: 100%;
+    }
 }
+
+
+
+
+
+
+
+
 
 
 
